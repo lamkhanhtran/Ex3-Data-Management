@@ -11,3 +11,7 @@ for i in range(3):
     else:
         print(f"Tails")
 print(f"Heads: {coinHit[ 0 ]}, Tails: {coinHit[ 1 ]}")
+if coinHit[0] > coinHit[1]:
+    print(f"You won!")
+else:
+    print(f"You lost!")
