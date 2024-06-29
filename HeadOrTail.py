@@ -15,6 +15,6 @@ for i in range(3):
         print(f"Tails")
 print(f"Heads: {coinHit[ 0 ]}, Tails: {coinHit[ 1 ]}")
 if coinHit[0] > coinHit[1]:
-    print(f"You won!")
+    print(f"{name} won!")
 else:
-    print(f"You lost!")
+    print(f"{name} lost!")
